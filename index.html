@@ -5,9 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .videoContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  /* optional */
+  width: 100%;
+  height: 100%; 
+}
+    </style>
   </head>
   <body>
-    <div class="container-lg px-3 my-5 markdown-body">
+    <div class="videoContainer container-lg px-3 my-5 markdown-body">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/7VWbQ7HZFm0?si=FZlZ7ohs0V0-FXxo?showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </body>
 </html>
